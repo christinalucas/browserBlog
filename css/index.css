@@ -1,5 +1,13 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
 
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar-nav.navbar-right:last-child {
     margin-right: 0;
 }
