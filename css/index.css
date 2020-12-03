@@ -69,8 +69,8 @@ a.left-button, a.right-button {
   /* Bottom right text */
   #text-block {
     position: absolute;
-    top: 200px;
-    left: 30px;
+    top: 175px;
+    left: 200px;
     width: 100%;
     color:black;
   }
