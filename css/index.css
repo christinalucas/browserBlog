@@ -62,7 +62,7 @@ a.left-button, a.right-button {
 }
 
 /* Container holding the image and the text */
-.headimage {
+#headimage {
     position: relative;
   }
   
