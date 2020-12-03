@@ -64,12 +64,17 @@ a.left-button, a.right-button {
 /* Container holding the image and the text */
 #headimage {
     position: relative;
+    display: inline-block;
   }
   
   /* Bottom right text */
   #text-block {
     position: absolute;
-    top: 175px;
-    left: 500px;
-    color:black;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%;
   }
