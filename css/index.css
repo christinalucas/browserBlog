@@ -78,3 +78,7 @@ a.left-button, a.right-button {
         text-align: center;
         width: 60%;
   }
+
+  .navbar-brand{
+      color: #FFDACE;
+  }
