@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5{
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-nav.navbar-right:last-child {
@@ -84,4 +84,7 @@ a.left-button, a.right-button {
   }
   .navbar{
     color: #FFDACE; 
+  }
+  .description h1{
+      font-size: medium;
   }
