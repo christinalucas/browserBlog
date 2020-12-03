@@ -79,6 +79,7 @@ a.left-button, a.right-button {
         width: 60%;
   }
 
+  /* Attempting to change nav bar colour - not working */
   .navbar-brand{
       color: #FFDACE;
   }
@@ -87,4 +88,33 @@ a.left-button, a.right-button {
   }
   .description h1{
       font-size: medium;
+  }
+
+  /*positioning and styling projects on home page*/
+  .first-image{
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 10px;
+  } 
+  .descrption{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 10px;
+    float: right;
+  }
+
+  /* learn more buttons */
+  a.btn.btn-primary {
+    position: absolute;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    color: black;
   }
