@@ -82,3 +82,6 @@ a.left-button, a.right-button {
   .navbar-brand{
       color: #FFDACE;
   }
+  .navbar{
+    color: #FFDACE; 
+  }
