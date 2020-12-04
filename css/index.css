@@ -118,3 +118,19 @@ a.left-button, a.right-button {
     border-color: #E5E5E5;
     color: black;
   }
+
+  /*formatting my face picture */
+  .pageImage img{
+      height: 441px;
+      float: left;
+      position: relative;
+  }
+  .markDownPage{
+      float: right;
+      position: relative;
+  }
+
+  #Contact{
+      position: relative;
+      float: left;
+  }
