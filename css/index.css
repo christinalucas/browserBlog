@@ -137,5 +137,16 @@ a.left-button, a.right-button {
 
   .aboutSection{
       padding: 5%;
-      margin-right: 30%;
+      position: relative;
+  }
+  .aboutSection.description{
+      width: 100%;
+  }
+  .aboutSection h1{
+      text-align: center;
+  }
+  .aboutSection.images
+  {
+      position: absolute;
+      float: left;
   }
