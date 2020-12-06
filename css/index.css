@@ -119,7 +119,7 @@ a.left-button, a.right-button {
     color: black;
   }
 
-  /*formatting my face picture */
+  /*formatting my face picture 
   .pageImage img{
       height: 441px;
       float: left;
@@ -133,4 +133,9 @@ a.left-button, a.right-button {
   #Contact{
       position: relative;
       float: left;
+  } */
+
+  .aboutSection{
+      padding: 5%;
+      margin-right: 30%;
   }
