@@ -119,34 +119,19 @@ a.left-button, a.right-button {
     color: black;
   }
 
-  /*formatting my face picture 
-  .pageImage img{
-      height: 441px;
-      float: left;
-      position: relative;
-  }
-  .markDownPage{
-      float: right;
-      position: relative;
-  }
-
-  #Contact{
-      position: relative;
-      float: left;
-  } */
-
+  /*about section*/
   .aboutSection{
       padding: 5%;
-      position: relative;
-  }
-  .aboutSection.description{
-      width: 100%;
   }
   .aboutSection h1{
       text-align: center;
   }
-  .aboutSection.images
+  .aboutSection img
   {
-      position: absolute;
       float: left;
+      height: 40%;
+      margin: 5%;
+
   }
+
+  /*image gallery*/
