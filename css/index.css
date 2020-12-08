@@ -194,5 +194,34 @@ div.projectText{
     display: table;
     margin-left:10%;
   }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.greencolumn {
+    float:left;
+     width: 20%;
+     padding: 5px;
+   display:block;
+   margin-left:15px;
+   margin-bottom: 1px;
+   text-align: center;
+   }
+   .greenrow{
+       margin-left:12%;
+   }
+   
+   /* Clear floats after image containers */
+   .greenrow::after {
+     content: "";
+     clear: both;
+     display: table;
+     margin-left:15%;
+   }
+
+   /*green formatting*/
+   div#greenpro{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+   }
+
   /*image gallery*/
 
