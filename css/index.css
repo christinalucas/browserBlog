@@ -152,7 +152,6 @@ div.contAns{
 }
 div#conf{
     position: relative;
-    display: inline-block;
     float: right;
     padding-right: 10%;
 }
