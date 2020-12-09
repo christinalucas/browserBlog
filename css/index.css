@@ -11,6 +11,15 @@ body{
 .navbar-nav.navbar-right:last-child {
     margin-right: 0;
 }
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #FFDACE;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
 
 section#itemsInner{
     display: flex;
@@ -112,7 +121,7 @@ a.left-button, a.right-button {
 
   /* learn more buttons */
   a.btn.btn-primary {
-    position: absolute;
+    position: relative;
     background: #E5E5E5;
     border-radius: 5px;
     border-color: #E5E5E5;
@@ -223,5 +232,12 @@ div.projectText{
     padding: 10px;
    }
 
+
+   .Pimages{
+       border: green;
+   }
   /*image gallery*/
 
+.clearfix{
+    clear: both;
+}
