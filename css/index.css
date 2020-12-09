@@ -21,13 +21,13 @@ body{
     color: white;
 }
 
-section#itemsInner{
+section#itemsInner1{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
 }
 
-article#items{
+article#items1{
     position: relative;
 }
 
@@ -71,10 +71,21 @@ a.left-button, a.right-button {
 }
 
 /* Container holding the image and the text */
-#headimage {
+
+.toppic {
     position: relative;
     display: inline-block;
+    background-image: url("https://colorate.azurewebsites.net/SwatchColor/FFDACE");
+    height: 40%;
+    width: 100%;
+    margin-top: -20px ;
   }
+.text-block
+{
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFDACE;
+}
   
   /* Bottom right text */
   #text-block {
@@ -86,6 +97,8 @@ a.left-button, a.right-button {
         top: 40%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 60%;
+        background-color: white;
+        padding-left: 0px;
   }
 
   /* Attempting to change nav bar colour - not working */
@@ -95,8 +108,10 @@ a.left-button, a.right-button {
   .navbar{
     color: #FFDACE; 
   }
-  .description h1{
-      font-size: medium;
+  .description: h1{
+
+      background-color: white;
+      color: black;
   }
 
   /*positioning and styling projects on home page*/
@@ -106,6 +121,7 @@ a.left-button, a.right-button {
     min-height: 1px;
     padding-right: 30px;
     padding-left: 10px;
+    margin-left:10%;
   } 
   .description{
     -webkit-box-flex: 0;
@@ -117,6 +133,10 @@ a.left-button, a.right-button {
     padding-right: 30px;
     padding-left: 10px;
     float: right;
+    background-color: white;
+    color: black;
+    margin-right: 10%;
+    
   }
 
   /* learn more buttons */
@@ -134,6 +154,7 @@ a.left-button, a.right-button {
   }
   .aboutSection h1{
       text-align: center;
+      clear: both;
   }
   .aboutSection img
   {
