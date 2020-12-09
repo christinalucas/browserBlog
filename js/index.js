@@ -82,7 +82,7 @@ class Section extends Page {
                 $(`#${this.oOptions.title}`).prepend(`
                 <div class="pageImage"><img src="${this.getImageSrc(this.oOptions.specialImage)}" /></div>
                 `);
-            }    
+            }
 
         })
     }
