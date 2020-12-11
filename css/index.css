@@ -75,7 +75,7 @@ a.left-button, a.right-button {
 .toppic {
     position: relative;
     display: inline-block;
-    background-image: url("https://colorate.azurewebsites.net/SwatchColor/FFDACE");
+    background-image: url("https://christinalucasuxd.weebly.com/uploads/1/2/9/3/129308903/group-5_orig.png");
     height: 40%;
     width: 100%;
     margin-top: -20px ;
@@ -163,6 +163,17 @@ a.left-button, a.right-button {
       height: 40%;
       margin: 5%;
 
+  }
+  p.description1{
+      font-size: large;
+     
+  }
+  a.btn.btn-primary1 {
+    margin-top: -150px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    color: black;
   }
 
 /*Scotiabank page formatting*/
