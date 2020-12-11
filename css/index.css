@@ -267,7 +267,6 @@ div.projectText{
 
 
    div.p-images{
-       border: green;
        float: left;
    }
   
@@ -289,4 +288,62 @@ div.projectText{
     content: "";
     clear: both;
     display: table;
+  }
+
+  /*Contact for */
+  .contact-words{
+    padding-left: 250px;
+  }
+  .contact-words p{
+    font-size: medium;  
+  }
+  #Contact form{
+      padding-left: 250px;
+  }
+  #Contact form button{
+    position: relative;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    color: black;
+    box-shadow: none; 
+    border-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  div.c-images{
+    float: left;
+}
+
+/* social icons */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  div.social{
+      margin-left:45%;
+      margin-right:45%;
   }

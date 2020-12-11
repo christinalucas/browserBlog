@@ -113,15 +113,16 @@ class Contact extends Page{
         $("#Contact").append(`
         <form action="${this.sUrlToEmailer}" method="POST">
             <div class="form-group">
-                <label>Name: <input name="name" placeholder="name" class="form-control" required /></label>
+                <label>NAME: <input name="Name" placeholder="First Name" class="form-control" required /></label>
+                <label><input name="Last Name" placeholder="Last Name" class="form-control" required /></label>
             </div>
             <div class="form-group">
                 <!-- Add required to make the user enter something. Add type="email" to make it have an @ symbol-->
-                <label>Email:<input name="email" placeholder="email" type="email" class="form-control"
+                <label>EMAIL:<input name="email" placeholder="Enter email here" type="email" class="form-control"
                         required /></label>
             </div>
             <div class="form-group">
-                <label>Message:<textarea name="message" placeholder="type your message here" class="form-control"
+                <label>MESSAGE:<textarea name="message" placeholder="Type your message here" class="form-control"
                         required></textarea></label>
             </div>
             <button type="submit">Send Message</button>
