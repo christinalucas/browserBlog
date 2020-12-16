@@ -21,6 +21,11 @@ body{
     color: white;
 }
 
+
+.navbar .navbar-brand:hover {
+  color: #FFDACE;
+}
+
 section#itemsInner1{
     display: flex;
     overflow-x: auto;
