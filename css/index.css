@@ -101,7 +101,7 @@ a.left-button, a.right-button {
         padding-left: 0px;
   }
 
-  /* Attempting to change nav bar colour - not working */
+  /* Attempting to change nav bar colour */
   .navbar-brand{
       color: #FFDACE;
   }
@@ -207,6 +207,12 @@ div#agreement{
         text-align: right;
         width: 100%;
         padding-right: 155px;
+}
+div#agree-box{
+  width:410px;
+  height:140px;
+  border:70px solid #FFDACE; 
+  fill:#FFDACE;
 }
 div.projectText{
     position: relative;
